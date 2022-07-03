@@ -230,6 +230,8 @@ li {
  }
 
 
+/* Responsiveness */
+
  @media screen and (max-width: 1404px) {
     body {
         position: relative;

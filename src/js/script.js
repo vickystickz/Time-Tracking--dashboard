@@ -21,7 +21,7 @@ function dailyStat(){
 
 
 /* dailytime function gets activated onload */
-dailyTime()
+dailyStat()
 dailyBtn.classList.add('active')
 
 
