@@ -14,7 +14,7 @@ function dailyStat(){
      .then(data => {
         hours.forEach((e,i) => {
             hours[i].innerHTML = data[i].timeframes.daily.current + 'hrs';
-            lastTime[i].innerHTML = 'Last daily - ' + data[i].timeframes.daily.previous + 'hrs';
+            lastTime[i].innerHTML = 'Yesterday - ' + data[i].timeframes.daily.previous + 'hrs';
         })
      })
 }
@@ -33,7 +33,7 @@ function weeklyStat(){
      .then(data => {
         hours.forEach((e,i) => {
             hours[i].innerHTML = data[i].timeframes.weekly.current + 'hrs';
-            lastTime[i].innerHTML = 'Last weekly - ' + data[i].timeframes.weekly.previous + 'hrs';
+            lastTime[i].innerHTML = 'Last week - ' + data[i].timeframes.weekly.previous + 'hrs';
         })
      })
 }
@@ -47,7 +47,7 @@ function monthlyStat(){
      .then(data => {
         hours.forEach((e,i) => {
             hours[i].innerHTML = data[i].timeframes.monthly.current + 'hrs';
-            lastTime[i].innerHTML = 'Last monthly - ' + data[i].timeframes.monthly.previous + 'hrs';
+            lastTime[i].innerHTML = 'Last month - ' + data[i].timeframes.monthly.previous + 'hrs';
         })
      })
 }
