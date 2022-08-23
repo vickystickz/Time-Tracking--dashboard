@@ -4,7 +4,7 @@
 
 ## link 
 
-* [View dashboard] (https://milsatfrontendtask-1.netlify.app)
+* [View dashboard](https://milsatfrontendtask-1.netlify.app)
 
 ## The challenge
 
